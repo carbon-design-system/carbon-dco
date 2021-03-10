@@ -1,2 +1,3 @@
-# carbon-cla
-Signed Contributor License Agreements for the Carbon Design System.
+# Carbon DCO
+
+Signed Developer Certificate of Origins for the Carbon Design System.
