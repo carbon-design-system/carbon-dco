@@ -1,0 +1,9 @@
+{
+  "name": "carbon-dco",
+  "version": "1.0.0",
+  "repository": "git@github.com:carbon-design-system/carbon-dco.git",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "prettier-config-carbon": "^0.4.0"
+  }
+}
