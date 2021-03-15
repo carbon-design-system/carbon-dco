@@ -67,7 +67,7 @@ jobs:
     steps:
       - name: "DCO Assistant"
         if: (github.event.comment.body == 'recheck' || github.event.comment.body == 'I have read the DCO document and I hereby sign the DCO.') || github.event_name == 'pull_request_target'
-        uses: cla-assistant/github-action@v6cfe025afc31eb0bdd08e23d3f2e9ed141ab2c09
+        uses: cla-assistant/github-action@6cfe025afc31eb0bdd08e23d3f2e9ed141ab2c09
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
